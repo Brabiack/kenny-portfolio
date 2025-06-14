@@ -174,4 +174,55 @@ h1, h2 {
 .services-grid li:hover {
   background: rgba(0, 255, 204, 0.2);
 }
+.social-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  position: relative;
+}
+.footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.footer a:hover {
+  color: var(--accent-color);
+}
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.footer .social-links {
+  margin-top: 0.5rem;
+}
+.footer .social-links a {
+  margin: 0 0.5rem;
+  color: var(--primary-color);
+  transition: color var(--transition-speed);
+}
+.footer .social-links a:hover {
+  color: var(--accent-color);
+}
+.footer .social-links img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.footer .social-links img:hover {
+  transform: scale(1.1);
+  transition: transform var(--transition-speed);
+}
+.footer .social-links img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+} 
+
+
 
