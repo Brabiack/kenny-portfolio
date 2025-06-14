@@ -93,7 +93,7 @@ const projects = [
   },
   {
     title: "web development",
-    image: "hostelfinder.png",
+    image: "hostelfinder.PNG",
     description: "Involved in web development projects, including creating a hostel finder website,government funded technical competency application and QR code based ordering managment system."
     
    
