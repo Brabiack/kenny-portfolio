@@ -64,36 +64,36 @@ document.head.appendChild(style);
 const projects = [
   {
     title: "Hardware & Software Support",
-    image: "images/H&S.jpeg",
+    image: "H&S.jpeg",
     description: "Providing comprehensive hardware and software support to ensure smooth IT operations.Involved in windows upgrades, VOIP installations,Internet connection changes, CCTV installs  and system troubleshooting."
 
   },
   {
     title: "Backup & Disaster Recovery",
-    image: "images/Backup.jpg",
+    image: "Backup.jpg",
     description: "Implemented robust backup solutions and disaster recovery plans to protect critical data and ensure business continuity."
   
   },
   {
     title: "Sys Admin Experience",
-    image: "images/system.jpg",
+    image: "system.jpg",
     description: "Hands-on experience in system administration, managing servers, and ensuring system reliability."
 
   },
   {
     title: "Network Monitoring System Installtion, maintenance and Support",
-    image: "images/Observium.png",
+    image: "Observium.png",
     description: "Installation, maintenance, and support of network monitoring systems for efficient IT operations."
   },
   {
     title: "AI usage & acceptance policy creation and implimentation",
-    image: "images/Ai act.png",
+    image: "Ai act.png",
     description: "Creation and implementation of AI usage and acceptance policies to ensure ethical AI deployment."
 
   },
   {
     title: "web development",
-    image: "images/hostelfinder.png",
+    image: "hostelfinder.png",
     description: "Involved in web development projects, including creating a hostel finder website,government funded technical competency application and QR code based ordering managment system."
     
    
