@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kenny's Portfolio</title>
+
+  <link rel="stylesheet" href="enhanced_style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+  <div class="main-container">
+    <aside class="aside">
+      <div class="profile-image" style="text-align: center; margin-bottom: 1rem;">
+      <img src="images/Kenny.jpeg" alt="Kenny" class="circular-img"/>
+      <div class="nav-toggler"><span></span></div>
+      <ul class="nav" role="navigation">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+        <li><a href="#education"><i class="fa fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+      </ul>
+
+      <div class="color-changer">
+        <label>Text Highlight:</label>
+        <select id="textColorSelect">
+          <option value="#00ffcc">Cyan</option>
+          <option value="#ff4081">Pink</option>
+          <option value="#ffcc00">Yellow</option>
+          <option value="#00bfff">Sky Blue</option>
+        </select>
+      </div>
+    </aside>
+
+    <main>
+      <section id="home" class="section home">
+        <div class="intro">
+          <h1>Hello, I'm <span>Kenny</span></h1>
+          <p>A passionate IT specialist & technologist.</p>
+          <div class="resume-button">
+            <a href="documents/Kenny Resume.pdf" class="btn" download>Download Resume <i class="fa fa-download"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>I'm a skilled IT Support Technician with extensive experience in 2nd and 3rd Line Support. I specialize in troubleshooting, configuring, and maintaining IT infrastructure across both on-premises and cloud environments. My core competencies include Hyper-V, Linux, Microsoft 365, Teams, SharePoint, Active Directory, and Windows Server, with a strong foundation in networking (VLANs, NAT, firewall rules) and PowerShell scripting.
+
+          I excel at resolving complex technical issues, supporting infrastructure upgrades, and building reliable server environments. I'm passionate about delivering efficient, scalable IT solutions that drive business productivity. Currently seeking opportunities where I can apply my expertise to make a meaningful impact.</p>
+      </section>
+
+      <section id="education" class="section education">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>MSc Information Technology</strong> – Specializations in Information Security, Strategy, UX Design, and Governance</li>
+          <li><strong>Bachelor's Degree in Computer Science</strong> – Focused on software development, networks, and database systems</li>
+        </ul>
+      </section>
+
+      <section id="services" class="section services">
+        <h2>Services</h2>
+        <div class="services-grid">
+          <ul>
+            <li>IT Support & Troubleshooting</li>
+            <li>Web Development</li>
+            <li>AV & Hybrid Tech Consultation</li>
+          </ul>
+          <ul>
+            <li>Network Management</li>
+            <li>Cloud Solutions</li>
+            <li>IT Training & Workshops</li>
+          </ul>
+          <ul>
+            <li>System Administration</li>
+            <li>Cybersecurity Solutions</li>
+            <li>Data Management & Analytics</li>
+          </ul>
+          <ul>
+            <li>UX/UI Design</li>
+            <li>IT Strategy & Governance</li>
+            <li>Technical Writing & Documentation</li>
+          </ul>
+        </div>
+      </section>
+      
+
+      <section id="portfolio" class="section portfolio">
+        <h2>Projects</h2>
+        <div class="portfolio-grid" id="project-grid"></div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <p>Email: mungekigathi@gmail.com</p>
+        <p>LinkedIn: <a href="#">www.linkedin.com/in/kigathi777munge/</a></p>
+      </section>
+    </main>
+  </div>
+
+  <script src="enhanced_script.js" defer></script>
+</body>
+</html>
