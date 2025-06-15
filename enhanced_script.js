@@ -124,3 +124,13 @@ if (colorPicker) {
     document.body.style.setProperty('--primary-color', colorPicker.value);
   });
 }
+// Toggle navigation sidebar (for mobile)
+const navToggler = document.querySelector(".nav-toggler");
+const aside = document.querySelector(".aside");
+
+if (navToggler && aside) {
+  navToggler.addEventListener("click", () => {
+    aside.classList.toggle("open");
+  });
+}
+
