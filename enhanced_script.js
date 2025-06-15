@@ -125,7 +125,6 @@ if (colorPicker) {
   });
 }
 
-
 // Toggle navigation sidebar (for mobile)
 const navToggler = document.querySelector(".nav-toggler");
 const aside = document.querySelector(".aside");
@@ -136,11 +135,24 @@ if (navToggler && aside) {
   });
 }
 
-// Close sidebar when nav link is clicked (mobile only)
+// Close sidebar when a nav link is clicked (mobile only)
 document.querySelectorAll('.nav a').forEach(link => {
   link.addEventListener('click', () => {
     if (window.innerWidth <= 768) {
-      document.querySelector('.aside').classList.remove('open');
+      aside.classList.remove('open');
     }
   });
 });
+
+// Paintbrush button to cycle text colors
+const paintBtn = document.querySelector(".color-toggle-btn");
+const colorOptions = ['#00ffcc', '#ff4081', '#ffcc00', '#00bfff', '#32cd32'];
+let currentColorIndex = 0;
+
+if (paintBtn) {
+  paintBtn.addEventListener("click", () => {
+    currentColorIndex = (currentColorIndex + 1) % colorOptions.length;
+    document.body.style.setProperty('--primary-color', colorOptions[currentColorIndex]);
+  });
+}
+
