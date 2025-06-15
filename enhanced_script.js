@@ -124,6 +124,8 @@ if (colorPicker) {
     document.body.style.setProperty('--primary-color', colorPicker.value);
   });
 }
+
+
 // Toggle navigation sidebar (for mobile)
 const navToggler = document.querySelector(".nav-toggler");
 const aside = document.querySelector(".aside");
@@ -133,7 +135,8 @@ if (navToggler && aside) {
     aside.classList.toggle("open");
   });
 }
-/ Close sidebar when nav link is clicked (mobile only)
+
+// Close sidebar when nav link is clicked (mobile only)
 document.querySelectorAll('.nav a').forEach(link => {
   link.addEventListener('click', () => {
     if (window.innerWidth <= 768) {
@@ -141,5 +144,3 @@ document.querySelectorAll('.nav a').forEach(link => {
     }
   });
 });
-
-
