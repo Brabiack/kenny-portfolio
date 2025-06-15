@@ -133,4 +133,13 @@ if (navToggler && aside) {
     aside.classList.toggle("open");
   });
 }
+/ Close sidebar when nav link is clicked (mobile only)
+document.querySelectorAll('.nav a').forEach(link => {
+  link.addEventListener('click', () => {
+    if (window.innerWidth <= 768) {
+      document.querySelector('.aside').classList.remove('open');
+    }
+  });
+});
+
 
